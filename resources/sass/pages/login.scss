@@ -1,0 +1,51 @@
+.form-signin-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+
+  .form {
+    max-width: 300px;
+    width: 100%;
+
+    .form-control {
+      height: 40px;
+    }
+
+    .buttons-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: baseline;
+
+      .signin-button {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+
+        .btn {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.breakpoint-mobile,
+.breakpoint-mp {
+  .form-signin-wrapper {
+    .form {
+      padding: 15px;
+
+      .form-control {
+      }
+
+      .buttons-wrapper {
+        .signin-button {
+          .btn {
+          }
+        }
+      }
+    }
+  }
+}

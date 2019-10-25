@@ -1,0 +1,12 @@
+// Variables
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
+
+@import "./components/navbar";
+
+@import './pages/login';
+
+.content {
+  max-width: 85%;
+  margin: auto;
+}
